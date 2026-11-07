@@ -1,0 +1,31 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PlatformIO / Arduino build output
+.pio/
+build/
+
+# ROS 2
+install/
+log/
+*.bag
+
+# CAD / PCB backups
+*.bak
+*-backups/
+*.kicad_prl
+fp-info-cache
+
+# Secrets - NEVER commit these
+.env
+secrets.h
+credentials.*
